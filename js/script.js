@@ -233,8 +233,7 @@ function moyenneStudent() {
     noteError(phy, "erorNotePhy");
     noteError(chimie, "erorNoteChimie");
     noteError(info, "erorNoteInfo");
-message("#fdc632", "votre Moyenne est :"
-    +parseFloat(calculeMoyenne(math, phy, chimie, info)).toFixed(2), "", "moyenneStudent", verifNote(phy) && verifNote(math) && verifNote(chimie) && verifNote(info));
+message("#fdc632", "votre Moyenne est :"+parseFloat(calculeMoyenne(math, phy, chimie, info)).toFixed(2), "", "moyenneStudent", verifNote(phy) && verifNote(math) && verifNote(chimie) && verifNote(info));
 
 }
 //!fonction that show the student of a connected trainer 
